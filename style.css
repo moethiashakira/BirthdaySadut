@@ -260,11 +260,19 @@ body {
     align-items: center;
     border: 6px solid var(--color-black);
 }
-.content .right .image img{
+/* .content .right .image img{
     width: 100%;
     object-fit: cover;
 
+} */
+
+.content .right .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.2); /* Angka 1.2 artinya di-zoom 120% */
 }
+
 .cricle{
     position: absolute;
     top: 20px;
